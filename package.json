@@ -1,0 +1,24 @@
+{
+  "name": "grid-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spearek/Grid-mockup-project-wwdc_2.git"
+  },
+  "author": "Spearek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spearek/Grid-mockup-project-wwdc_2/issues"
+  },
+  "homepage": "https://github.com/Spearek/Grid-mockup-project-wwdc_2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
