@@ -1,6 +1,55 @@
-$color: firebrick;
+$regularFont: 300;
+$boldFont:700;
+$titleFont: 900;
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body{
-    color: white;
-    background: $color;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+header{
+width:80%;
+position:fixed;
+display:flex;
+margin: 40px 10%;
+justify-content: space-between;
+
+}
+
+.navigation{
+	
+
+&__items{
+		vertical-align: middle;
+		display:flex;
+		font-weight: $boldFont;
+	}
+&__item{
+		vertical-align: middle;
+		list-style: none;
+		text-transform: uppercase;
+		padding: 20px;
+		font-size: 16px;
+	}
+	
+}
+
+
+.hero__background{
+	background-image: url(../img/header_bcg.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	top:0;
+	left:0;
+	width:100%;
+	background-size:cover;
+	background-position: center;
 }
