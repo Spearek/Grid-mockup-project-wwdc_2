@@ -87,4 +87,32 @@ header {
           -ms-transform: scale(1.1);
               transform: scale(1.1); }
 
+.about {
+  background-color: #00bbbb;
+  width: 100%; }
+  .about__content {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: white; }
+  .about .about__content__image {
+    width: 50%; }
+    .about .about__content__image img {
+      width: 100%; }
+  .about .about__content__informations {
+    margin: auto 0;
+    width: 50%;
+    margin-left: 5%; }
+  .about .about__content h1 {
+    font-size: 90px; }
+  .about .about__content p {
+    padding-bottom: 15px;
+    line-height: 1.5;
+    width: 65%; }
+
 /*# sourceMappingURL=styles.css.map */
