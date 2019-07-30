@@ -100,19 +100,92 @@ header {
         -ms-flex-pack: justify;
             justify-content: space-between;
     color: white; }
-  .about .about__content__image {
-    width: 50%; }
-    .about .about__content__image img {
-      width: 100%; }
-  .about .about__content__informations {
-    margin: auto 0;
-    width: 50%;
-    margin-left: 5%; }
-  .about .about__content h1 {
-    font-size: 90px; }
-  .about .about__content p {
-    padding-bottom: 15px;
-    line-height: 1.5;
-    width: 65%; }
+
+.about__content__image {
+  width: 50%; }
+  .about__content__image img {
+    width: 100%; }
+
+.about__content__informations {
+  margin: auto 0;
+  width: 50%;
+  margin-left: 5%; }
+
+.about__content h1 {
+  font-size: 90px; }
+
+.about__content p {
+  padding-bottom: 15px;
+  line-height: 1.5;
+  width: 65%; }
+
+.services {
+  min-height: 500px;
+  background-color: #70bfff;
+  width: 100%; }
+  .services__content {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: white; }
+
+.services__content__list {
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-left: 10%; }
+
+.services__content__image {
+  position: relative;
+  width: 50%; }
+  .services__content__image img {
+    width: 100%;
+    padding: 10%; }
+  .services__content__image .image__title {
+    font-size: 90px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+.service {
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  font-size: 20px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 2px 9px 0px rgba(0, 0, 0, 0.75); }
+  .service p {
+    margin: auto;
+    width: 80%;
+    text-align: center; }
+  .service span {
+    width: 20%;
+    height: 100%;
+    border-left: 1px solid #9d9d9d;
+    text-align: center; }
+
+/*.image__title{
+	font-size: 90px;
+	font-weight: $boldFont;
+	position:absolute;
+}*/
 
 /*# sourceMappingURL=styles.css.map */
