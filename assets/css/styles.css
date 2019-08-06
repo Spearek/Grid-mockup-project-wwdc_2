@@ -184,7 +184,14 @@ header {
 .gallery {
   min-height: 500px;
   background-color: #ffe92f;
-  width: 100%; }
+  width: 100%;
+  padding-top: 50px; }
+  .gallery__title {
+    font-size: 90px; }
+  .gallery__decription {
+    font-size: 17px;
+    width: 40%;
+    margin: 30px auto; }
   .gallery__content {
     width: 80%;
     margin: 0 auto;

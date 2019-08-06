@@ -206,6 +206,18 @@ justify-content: space-between;
 	min-height: 500px;
 	background-color: rgb(255, 233, 47);
 	width:100%;
+	padding-top: 50px;
+
+	&__title{
+		font-size: 90px;
+		
+	}
+	&__decription{
+		font-size: 17px;
+		width: 40%;
+		margin: 30px auto;
+
+	}
 
 	&__content{
 		width: 80%;
