@@ -120,7 +120,6 @@ header {
   width: 65%; }
 
 .services {
-  min-height: 500px;
   background-color: #70bfff;
   width: 100%; }
   .services__content {
@@ -181,5 +180,35 @@ header {
     height: 100%;
     border-left: 1px solid #9d9d9d;
     text-align: center; }
+
+.gallery {
+  min-height: 500px;
+  background-color: #ffe92f;
+  width: 100%; }
+  .gallery__content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; }
+  .gallery__presentation {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    margin: 0 auto;
+    grid-gap: 30px;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    grid-template-areas: "peach peach peach peach blackberries blackberries" "peach peach peach peach blueberries blueberries" "milk milk milk khakki khakki khakki"; }
+  .gallery .image-1 {
+    grid-area: peach; }
+  .gallery .image-2 {
+    grid-area: blackberries; }
+  .gallery .image-3 {
+    grid-area: blueberries; }
+  .gallery .image-4 {
+    grid-area: milk; }
+  .gallery .image-5 {
+    grid-area: khakki; }
 
 /*# sourceMappingURL=styles.css.map */
