@@ -203,7 +203,6 @@ justify-content: space-between;
 }
 
 .gallery{
-	min-height: 500px;
 	background-color: rgb(255, 233, 47);
 	width:100%;
 	padding-top: 50px;
@@ -254,6 +253,16 @@ justify-content: space-between;
 	}
 	.image-5{
 		grid-area: khakki;
+	}
+
+	&__btn{
+		padding: 10px 25px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 20px;
+		color: rgb(255, 255, 255);
+		background: rgb(85, 133, 162);
+		cursor: pointer;
 	}
 
 
