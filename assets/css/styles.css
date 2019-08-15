@@ -225,4 +225,21 @@ header {
     background: #5585a2;
     cursor: pointer; }
 
+.subscription {
+  min-height: 500px;
+  width: 100%;
+  background-image: url("../img/subscribe_bcg.jpg");
+  background-position: right;
+  background-repeat: no-repeat; }
+  .subscription__content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px; }
+  .subscription__title {
+    font-size: 40px; }
+  .subscription__description {
+    font-size: 17px;
+    width: 45%;
+    margin: 25px 0; }
+
 /*# sourceMappingURL=styles.css.map */

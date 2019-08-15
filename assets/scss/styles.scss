@@ -267,3 +267,26 @@ justify-content: space-between;
 
 
 }
+
+.subscription{
+	min-height: 500px;
+	width:100%;
+	background-image: url("../img/subscribe_bcg.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+
+	&__content{
+		width: 80%;
+		margin: 0 auto;
+		padding-top: 100px;
+
+	}
+	&__title{
+		font-size: 40px;
+	}
+	&__description{
+		font-size:17px;
+		width:45%;
+		margin: 25px 0;
+	}
+}
