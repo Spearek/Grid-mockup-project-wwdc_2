@@ -340,11 +340,38 @@ justify-content: space-between;
 .blog__posts{
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 
 	.post{
-		background: orange;
-		height: 300px;
-		width: 300px;
+		margin: 10px;
+		position: relative;
+		width:33%;
+
+		&__image{
+			width:100%;
+			position: relative;
+		}
+		&__date{
+			position: absolute;
+			top: 5%;
+			left: 5%;
+			padding:2%;
+			background-color:rgba(0,0,0,0.4	);
+			border-radius:10%;
+			color: white;
+			font-weight: $boldFont;
+			font-size: 21px;
+		}
+		&__title{
+			position: absolute;
+			font-size: 20px;
+			color: white;
+			top:0;
+			left: 5%;
+			width:80%;
+			padding-top: 50%;
+			text-align: left;
+			text-shadow: black 2px 2px 2px;	
+		}
 	}
 }
