@@ -251,4 +251,46 @@ header {
     background-color: #96b92c;
     cursor: pointer; }
 
+.blog {
+  min-height: 600px;
+  width: 100%;
+  background: #b07cf7; }
+  .blog__content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center; }
+  .blog__title {
+    font-size: 90px;
+    color: white;
+    margin-bottom: 30px; }
+  .blog__description {
+    width: 55%;
+    margin: 0 auto 30px;
+    color: white;
+    font-weight: 400; }
+  .blog__btn {
+    padding: 10px 30px;
+    color: white;
+    background-color: #f72b3b;
+    cursor: pointer;
+    font-weight: 300;
+    border: none;
+    -webkit-box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75); }
+
+.blog__posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px; }
+  .blog__posts .post {
+    background: orange;
+    height: 300px;
+    width: 300px; }
+
 /*# sourceMappingURL=styles.css.map */
