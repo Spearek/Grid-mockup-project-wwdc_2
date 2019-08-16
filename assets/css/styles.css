@@ -241,5 +241,14 @@ header {
     font-size: 17px;
     width: 45%;
     margin: 25px 0; }
+  .subscription__form input {
+    width: 50%;
+    padding: 10px;
+    margin-right: 20px; }
+  .subscription__form button {
+    padding: 10px 25px;
+    color: white;
+    background-color: #96b92c;
+    cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */

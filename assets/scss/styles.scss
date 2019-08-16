@@ -289,4 +289,15 @@ justify-content: space-between;
 		width:45%;
 		margin: 25px 0;
 	}
+	&__form  input{
+		width:50%;
+		padding: 10px;
+		margin-right: 20px;
+	}
+	&__form button{
+		padding: 10px 25px;
+		color: rgb(255, 255, 255);
+		background-color: rgb(150, 185, 44);
+		cursor:pointer;
+	}
 }
