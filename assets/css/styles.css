@@ -395,4 +395,22 @@ header {
     font-size: 20px;
     padding-bottom: 15px; }
 
+.footer {
+  background-color: #262626;
+  width: 100%; }
+  .footer__content {
+    color: #b9b9b9;
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .footer__content span {
+      color: red;
+      font-weight: 700; }
+
 /*# sourceMappingURL=styles.css.map */
