@@ -48,6 +48,36 @@ body {
   width: 80%;
   margin: 0 auto; }
 
+.button {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: white;
+  -webkit-box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  border: none;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  -o-transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out; }
+  .button--hero {
+    margin-top: 20px;
+    background: #ff6033; }
+  .button--gallery {
+    margin-top: 30px;
+    background: #5585a2; }
+  .button--subscribe {
+    background-color: #96b92c; }
+  .button--blog {
+    background-color: #f72b3b; }
+  .button:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+
 header {
   width: 80%;
   position: fixed;
@@ -101,27 +131,6 @@ header {
       margin-top: 10px;
       line-height: 1.5;
       font-size: 1.7rem; }
-    .hero__content__btn {
-      text-transform: uppercase;
-      padding: 10px;
-      font-size: 20px;
-      margin-top: 20px;
-      color: white;
-      background: #ff6033;
-      cursor: pointer;
-      border: none;
-      -webkit-box-shadow: 0px 4px 5px 1px #d1c2d1;
-              box-shadow: 0px 4px 5px 1px #d1c2d1;
-      -webkit-transition: -webkit-transform .3s ease-in-out;
-      transition: -webkit-transform .3s ease-in-out;
-      -o-transition: transform .3s ease-in-out;
-      transition: transform .3s ease-in-out;
-      transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out; }
-    .hero__content__btn:hover {
-      background: #fa5c13;
-      -webkit-transform: scale(1.1);
-          -ms-transform: scale(1.1);
-              transform: scale(1.1); }
 
 .about {
   display: -webkit-box;
@@ -233,13 +242,6 @@ header {
     grid-area: milk; }
   .gallery .image-5 {
     grid-area: khakki; }
-  .gallery__btn {
-    padding: 10px 25px;
-    margin-top: 30px;
-    font-size: 20px;
-    color: white;
-    background: #5585a2;
-    cursor: pointer; }
 
 .subscription {
   min-height: 500px;
@@ -255,12 +257,6 @@ header {
     width: 50%;
     padding: 10px;
     margin-right: 20px; }
-  .subscription__form button {
-    padding: 10px 25px;
-    color: white;
-    font-size: 20px;
-    background-color: #96b92c;
-    cursor: pointer; }
 
 .blog {
   padding-top: 100px;
@@ -276,16 +272,6 @@ header {
     margin: 0 auto 30px;
     color: white;
     font-weight: 400; }
-  .blog__btn {
-    padding: 10px 30px;
-    color: white;
-    background-color: #f72b3b;
-    cursor: pointer;
-    font-weight: 300;
-    font-size: 20px;
-    border: none;
-    -webkit-box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75);
-            box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75); }
 
 .blog__posts {
   display: -webkit-box;
