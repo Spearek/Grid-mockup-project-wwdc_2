@@ -1,3 +1,6 @@
+:root {
+  font-size: 10px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -68,7 +71,7 @@ header {
   list-style: none;
   text-transform: uppercase;
   padding: 20px;
-  font-size: 16px; }
+  font-size: 1.6rem; }
 
 .navigation__item:last-child {
   padding-right: 0; }
@@ -92,11 +95,12 @@ header {
     padding-top: 20%; }
     .hero__content h1 {
       font-weight: 900;
-      font-size: 60px; }
+      font-size: 6rem; }
     .hero__content p {
       width: 25%;
       margin-top: 10px;
-      line-height: 1.5; }
+      line-height: 1.5;
+      font-size: 1.7rem; }
     .hero__content__btn {
       text-transform: uppercase;
       padding: 10px;
@@ -136,9 +140,10 @@ header {
     width: 50%;
     margin-left: 5%; }
   .about h1 {
-    font-size: 90px; }
+    font-size: 9rem; }
   .about p {
     padding-bottom: 15px;
+    font-size: 1.7rem;
     line-height: 1.5;
     width: 65%; }
 
@@ -202,9 +207,9 @@ header {
   padding-bottom: 90px;
   text-align: center; }
   .gallery__title {
-    font-size: 90px; }
+    font-size: 9rem; }
   .gallery__decription {
-    font-size: 17px;
+    font-size: 1.7rem;
     width: 40%;
     margin: 30px auto; }
   .gallery__presentation {
@@ -240,18 +245,20 @@ header {
   min-height: 500px;
   padding-top: 100px; }
   .subscription__title {
-    font-size: 40px; }
+    font-size: 4rem; }
   .subscription__description {
     font-size: 17px;
     width: 45%;
     margin: 25px 0; }
   .subscription__form input {
+    font-size: 2rem;
     width: 50%;
     padding: 10px;
     margin-right: 20px; }
   .subscription__form button {
     padding: 10px 25px;
     color: white;
+    font-size: 20px;
     background-color: #96b92c;
     cursor: pointer; }
 
@@ -260,10 +267,11 @@ header {
   padding-bottom: 100px;
   text-align: center; }
   .blog__title {
-    font-size: 90px;
+    font-size: 9rem;
     color: white;
     margin-bottom: 30px; }
   .blog__description {
+    font-size: 1.7rem;
     width: 55%;
     margin: 0 auto 30px;
     color: white;
@@ -274,6 +282,7 @@ header {
     background-color: #f72b3b;
     cursor: pointer;
     font-weight: 300;
+    font-size: 20px;
     border: none;
     -webkit-box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75);
             box-shadow: 2px 5px 12px -6px rgba(0, 0, 0, 0.75); }
@@ -335,10 +344,11 @@ header {
   .contact__heading {
     text-align: center; }
   .contact__title {
-    font-size: 90px;
+    font-size: 9rem;
     padding-top: 100px; }
   .contact__description {
-    padding: 50px 0; }
+    padding: 50px 0;
+    font-size: 1.7rem; }
   .contact__form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -395,7 +405,8 @@ header {
   padding: 30px 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  font-size: 1.7rem; }
   .footer .love {
     color: red;
     font-weight: 700; }
