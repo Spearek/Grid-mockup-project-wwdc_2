@@ -8,6 +8,19 @@ $titleMedium: 6rem;
 $titleSmall: 4rem;
 $btnFont: 20px;
 
+@mixin mediaQ($arg...){
+    @if length($arg) == 1{
+        @media screen and (max-width: nth($arg, 1)){
+            @content;
+        }
+    }
+    @if length($arg) == 2{
+        @media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)){
+            @content;
+        }
+    } 
+}
+
 :root{
 	font-size: 10px;
 }
