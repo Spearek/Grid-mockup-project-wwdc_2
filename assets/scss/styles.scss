@@ -479,10 +479,17 @@ justify-content: space-between;
 				margin-left: 20px;
 			}
 		}
-		@include mediaQ(1500px){
-			&__summary{
-				height: 40%;
-			}
+	}
+	@include mediaQ(1500px){
+		.post__summary{
+			height: 40%;
+		}
+	}
+	@include mediaQ(1100px){
+		.post{
+			&__date{font-size:16px}
+			&__summary{height: 50%;}
+			&__summary__title{font-size:16px;}
 		}
 	}
 }
