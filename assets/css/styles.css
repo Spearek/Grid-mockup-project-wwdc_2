@@ -41,6 +41,9 @@ body {
     background-image: url("../img/subscribe_bcg.jpg");
     background-position: right;
     background-repeat: no-repeat; }
+    @media screen and (max-width: 1000px) {
+      .section--subscription {
+        background-position: left; } }
   .section--blog {
     background-color: #b07cf7; }
   .section--contact {
@@ -296,6 +299,14 @@ header {
     width: 50%;
     padding: 10px;
     margin-right: 20px; }
+  @media screen and (max-width: 1000px) {
+    .subscription {
+      min-height: 400px;
+      text-align: center; }
+      .subscription__description {
+        margin: 25px auto;
+        padding-bottom: 30px;
+        width: 70%; } }
 
 .blog {
   padding-top: 100px;

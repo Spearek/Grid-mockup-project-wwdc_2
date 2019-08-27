@@ -85,6 +85,9 @@ body{
 		background-image: url("../img/subscribe_bcg.jpg");
 		background-position: right;
 		background-repeat: no-repeat;
+		@include mediaQ(1000px){
+			background-position: left;
+		}
 	}
 	&--blog{
 		background-color: rgb(176, 124, 247);
@@ -396,6 +399,16 @@ justify-content: space-between;
 		padding: 10px;
 		margin-right: 20px;
 	}
+	@include mediaQ(1000px){
+		min-height: 400px;
+		text-align: center;
+		&__description{
+			margin: 25px auto;
+			padding-bottom: 30px;
+			width: 70%;
+		}
+	}
+	
 }
 
 .blog{
