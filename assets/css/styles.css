@@ -206,6 +206,9 @@ header {
       -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
+  @media screen and (max-width: 1000px) {
+    .services__list {
+      margin-left: 0; } }
 
 .service {
   color: black;
@@ -231,6 +234,10 @@ header {
     height: 100%;
     border-left: 1px solid #9d9d9d;
     text-align: center; }
+  @media screen and (max-width: 1000px) {
+    .service {
+      font-size: 16px;
+      padding: 10px; } }
 
 .gallery {
   padding-top: 90px;
