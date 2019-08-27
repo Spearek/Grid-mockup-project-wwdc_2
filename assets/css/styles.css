@@ -139,6 +139,9 @@ header {
       @media screen and (max-width: 768px) {
         .hero__content p {
           font-size: 15px; } }
+  @media screen and (max-width: 1000px) {
+    .hero__content {
+      padding-top: 40%; } }
 
 .about {
   display: -webkit-box;

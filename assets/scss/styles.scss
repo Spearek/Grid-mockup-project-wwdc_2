@@ -189,9 +189,12 @@ justify-content: space-between;
 					width:25%;
 					 margin-top:10px;
 					 line-height: 1.5;
-					 //font-size: $paragraphFont;
 				}
-		}	
+		}
+		@include mediaQ(1000px)	{
+			&__content{ padding-top:40%;}
+
+		}
 }
 
 .about{
