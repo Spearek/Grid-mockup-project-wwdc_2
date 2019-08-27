@@ -295,6 +295,20 @@ justify-content: space-between;
 			margin-left:0;
 		}
 	}
+	@include mediaQ(850px){
+		flex-direction: column;
+		align-items: center;
+		&__list{
+			order:2;
+			width:100%;
+		}
+		&__image{
+			width:70%;
+			padding-top:0;
+		}
+		&__image img{padding-top:0;}
+
+	}
 }
 
 .service{
@@ -322,6 +336,12 @@ justify-content: space-between;
 	@include mediaQ(1000px){
 		font-size: 16px;
 		padding:10px;
+
+	}
+	@include mediaQ(400px){
+		span img{
+			width: 100%;
+		}
 
 	}
 }
