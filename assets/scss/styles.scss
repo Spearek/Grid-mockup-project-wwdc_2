@@ -233,6 +233,11 @@ justify-content: space-between;
 		line-height: 1.5;
 		width: 65%;
 	}
+	@include mediaQ(1000px){
+		p{
+			width:100%;
+		}
+	}
 }
 
 .services{
