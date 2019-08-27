@@ -1,5 +1,8 @@
 :root {
   font-size: 10px; }
+  @media screen and (max-width: 1200px) {
+    :root {
+      font-size: 8px; } }
 
 * {
   margin: 0;
@@ -129,8 +132,13 @@ header {
     .hero__content p {
       width: 25%;
       margin-top: 10px;
-      line-height: 1.5;
-      font-size: 1.7rem; }
+      line-height: 1.5; }
+      @media screen and (min-width: 769px) {
+        .hero__content p {
+          font-size: 17px; } }
+      @media screen and (max-width: 768px) {
+        .hero__content p {
+          font-size: 15px; } }
 
 .about {
   display: -webkit-box;
@@ -152,7 +160,7 @@ header {
     font-size: 9rem; }
   .about p {
     padding-bottom: 15px;
-    font-size: 1.7rem;
+    font-size: 17px;
     line-height: 1.5;
     width: 65%; }
 
@@ -175,7 +183,7 @@ header {
       width: 100%;
       padding: 10%; }
     .services__image .image__title {
-      font-size: 90px;
+      font-size: 9rem;
       width: 100%;
       text-align: center;
       font-weight: 700;
@@ -218,7 +226,7 @@ header {
   .gallery__title {
     font-size: 9rem; }
   .gallery__decription {
-    font-size: 1.7rem;
+    font-size: 17px;
     width: 40%;
     margin: 30px auto; }
   .gallery__presentation {
@@ -267,7 +275,7 @@ header {
     color: white;
     margin-bottom: 30px; }
   .blog__description {
-    font-size: 1.7rem;
+    font-size: 17px;
     width: 55%;
     margin: 0 auto 30px;
     color: white;
@@ -320,6 +328,9 @@ header {
         color: white;
         text-shadow: black 2px 2px 2px;
         margin-left: 20px; }
+    @media screen and (max-width: 1500px) {
+      .blog__posts .post__summary {
+        height: 40%; } }
 
 .contact {
   padding-bottom: 100px; }
@@ -334,7 +345,7 @@ header {
     padding-top: 100px; }
   .contact__description {
     padding: 50px 0;
-    font-size: 1.7rem; }
+    font-size: 17px; }
   .contact__form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -392,7 +403,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 1.7rem; }
+  font-size: 17px; }
   .footer .love {
     color: red;
     font-weight: 700; }

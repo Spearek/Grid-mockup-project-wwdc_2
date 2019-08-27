@@ -6,7 +6,17 @@ $logoFont:'Pacifico', cursive;
 $titleBig: 9rem;
 $titleMedium: 6rem;
 $titleSmall: 4rem;
+$paragraphFont: 17px;
 $btnFont: 20px;
+
+@mixin paragraph-size (){
+	@media screen and (min-width: 769px) {
+		font-size: 17px;
+	}
+	@media screen and (max-width: 768px) {
+		font-size: 15px;
+	}
+}
 
 @mixin mediaQ($arg...){
     @if length($arg) == 1{
@@ -23,6 +33,10 @@ $btnFont: 20px;
 
 :root{
 	font-size: 10px;
+
+	@include mediaQ(1200px){
+		font-size: 8px;
+	}
 }
 * {
 	margin: 0;
@@ -171,10 +185,11 @@ justify-content: space-between;
 					font-size:$titleMedium;
 				}
 				p{
+					@include paragraph-size();
 					width:25%;
 					 margin-top:10px;
 					 line-height: 1.5;
-					 font-size: 1.7rem;
+					 //font-size: $paragraphFont;
 				}
 		}	
 }
@@ -183,6 +198,9 @@ justify-content: space-between;
 	display:flex;
 	justify-content: space-between;
 	color:white;
+	//padding-top:50px;
+	//padding-bottom: 50px;
+
 
 
 	&__image{
@@ -203,13 +221,15 @@ justify-content: space-between;
 	}
 	p{
 		padding-bottom:15px;
-		font-size:1.7rem;
+		font-size:$paragraphFont;
 		line-height: 1.5;
 		width: 65%;
 	}
 }
 
 .services{
+	//padding-top:50px;
+//	padding-bottom: 50px;
 	display:flex;
 	justify-content: space-between;
 	color:white;
@@ -228,7 +248,7 @@ justify-content: space-between;
 			padding: 10%;
 		}
 		.image__title{
-			font-size: 90px;
+			font-size: $titleBig;
 			width:100%;
 			text-align: center;
 			font-weight: $boldFont;
@@ -275,7 +295,7 @@ justify-content: space-between;
 		
 	}
 	&__decription{
-		font-size: 1.7rem;
+		font-size: $paragraphFont;
 		width: 40%;
 		margin: 30px auto;
 
@@ -319,7 +339,7 @@ justify-content: space-between;
 		font-size: $titleSmall;
 	}
 	&__description{
-		font-size:17px;
+		font-size:$paragraphFont;
 		width:45%;
 		margin: 25px 0;
 	}
@@ -342,7 +362,7 @@ justify-content: space-between;
 		margin-bottom: 30px;
 	}
 	&__description{
-		font-size: 1.7rem;
+		font-size: $paragraphFont;
 		width:55%;
 		margin: 0 auto 30px;
 		color: white;
@@ -399,6 +419,11 @@ justify-content: space-between;
 				margin-left: 20px;
 			}
 		}
+		@include mediaQ(1500px){
+			&__summary{
+				height: 40%;
+			}
+		}
 	}
 }
 
@@ -419,7 +444,7 @@ justify-content: space-between;
 	}
 	&__description{
 		padding: 50px 0;
-		font-size: 1.7rem;
+		font-size: $paragraphFont;
 	}
 	&__form{
 		display: flex;
@@ -470,7 +495,7 @@ justify-content: space-between;
 	display: flex;
 	padding: 30px 0;
 	justify-content: space-between;
-	font-size: 1.7rem;
+	font-size: $paragraphFont;
 
 	.love{
 		color: red;
