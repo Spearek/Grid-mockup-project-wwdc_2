@@ -351,6 +351,31 @@ justify-content: space-between;
 	.image-5{
 		grid-area: khakki;
 	}
+	@include mediaQ(1000px){
+		&__decription{
+			width: 80%;
+		}
+		&__presentation{
+			grid-template-columns: repeat(6,1fr);
+			grid-template-areas:
+			"peach peach peach peach peach peach"
+			"blueberries blueberries blueberries blackberries blackberries blackberries"
+			"milk milk milk khakki khakki khakki";
+
+		}
+	}
+	@include mediaQ(768px){
+		&__presentation{
+			width: 80%;
+			grid-template-columns: repeat(2,1fr);
+			grid-template-areas:
+			"peach peach"
+			"blueberries blueberries"
+			"blackberries blackberries"
+			"milk milk "
+			"khakki khakki";
+		}
+	}
 }
 
 .subscription{

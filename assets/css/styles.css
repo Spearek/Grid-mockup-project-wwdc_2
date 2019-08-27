@@ -270,6 +270,17 @@ header {
     grid-area: milk; }
   .gallery .image-5 {
     grid-area: khakki; }
+  @media screen and (max-width: 1000px) {
+    .gallery__decription {
+      width: 80%; }
+    .gallery__presentation {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-areas: "peach peach peach peach peach peach" "blueberries blueberries blueberries blackberries blackberries blackberries" "milk milk milk khakki khakki khakki"; } }
+  @media screen and (max-width: 768px) {
+    .gallery__presentation {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "peach peach" "blueberries blueberries" "blackberries blackberries" "milk milk " "khakki khakki"; } }
 
 .subscription {
   min-height: 500px;
