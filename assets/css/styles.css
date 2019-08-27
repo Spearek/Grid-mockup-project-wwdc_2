@@ -147,7 +147,9 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: white; }
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .about__image {
     width: 50%; }
     .about__image img {
@@ -165,6 +167,8 @@ header {
     width: 65%; }
 
 .services {
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
