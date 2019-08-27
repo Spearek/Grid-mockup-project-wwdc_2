@@ -3,6 +3,9 @@
   @media screen and (max-width: 1200px) {
     :root {
       font-size: 8px; } }
+  @media screen and (max-width: 768px) {
+    :root {
+      font-size: 6px; } }
 
 * {
   margin: 0;

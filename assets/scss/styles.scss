@@ -37,6 +37,10 @@ $btnFont: 20px;
 	@include mediaQ(1200px){
 		font-size: 8px;
 	}
+	@include mediaQ(768px){
+		font-size: 6px;
+	}
+
 }
 * {
 	margin: 0;
@@ -192,8 +196,9 @@ justify-content: space-between;
 				}
 		}
 		@include mediaQ(1000px)	{
-			&__content{ padding-top:40%;}
-
+			&__content{
+				padding-top:40%;
+			}
 		}
 }
 
