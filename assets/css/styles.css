@@ -6,6 +6,9 @@
   @media screen and (max-width: 768px) {
     :root {
       font-size: 6px; } }
+  @media screen and (max-width: 450px) {
+    :root {
+      font-size: 5px; } }
 
 * {
   margin: 0;

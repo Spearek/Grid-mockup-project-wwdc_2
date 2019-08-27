@@ -40,6 +40,9 @@ $btnFont: 20px;
 	@include mediaQ(768px){
 		font-size: 6px;
 	}
+	@include mediaQ(450px){
+		font-size: 5px;
+	}
 
 }
 * {
