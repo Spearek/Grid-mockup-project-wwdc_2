@@ -476,6 +476,12 @@ justify-content: space-between;
 		color: white;
 		font-weight: 400;
 	}
+	@include mediaQ(768px){
+		&__description{
+			width:100%;
+			text-align: justify;
+		}
+	}
 }
 
 .blog__posts{

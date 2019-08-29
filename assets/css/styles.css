@@ -370,6 +370,10 @@ header {
     margin: 0 auto 30px;
     color: white;
     font-weight: 400; }
+  @media screen and (max-width: 768px) {
+    .blog__description {
+      width: 100%;
+      text-align: justify; } }
 
 .blog__posts {
   display: -webkit-box;
