@@ -380,14 +380,7 @@ header {
           justify-content: space-between;
   margin-bottom: 40px;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  /*@include mediaQ(900px){
-		flex-direction: column;
-		.post{
-			width: 3000px;
-		}
-
-	}*/ }
+      flex-wrap: wrap; }
   .blog__posts .post {
     margin: 10px;
     position: relative;

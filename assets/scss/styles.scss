@@ -545,13 +545,6 @@ justify-content: space-between;
 			&__summary__title{font-size:16px;}
 		}
 	}
-	/*@include mediaQ(900px){
-		flex-direction: column;
-		.post{
-			width: 3000px;
-		}
-
-	}*/
 }
 
 .contact{
