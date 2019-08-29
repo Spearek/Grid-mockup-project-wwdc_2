@@ -378,15 +378,29 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /*@include mediaQ(900px){
+		flex-direction: column;
+		.post{
+			width: 3000px;
+		}
+
+	}*/ }
   .blog__posts .post {
     margin: 10px;
     position: relative;
-    width: 33%; }
-    .blog__posts .post__image {
-      width: 100%;
-      height: 100%;
-      position: relative; }
+    width: 30%;
+    height: 22vw;
+    background-image: url("../img/blog_raspberries.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*&__image{
+			width:100%;
+			height: 100%;
+		}*/ }
     .blog__posts .post__date {
       position: absolute;
       top: 5%;
