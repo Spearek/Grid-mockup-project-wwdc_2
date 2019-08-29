@@ -346,6 +346,15 @@ header {
         margin: 25px auto;
         padding-bottom: 30px;
         width: 70%; } }
+  @media screen and (max-width: 768px) {
+    .subscription {
+      margin-bottom: 50px; }
+      .subscription__form input {
+        width: 70%;
+        margin-bottom: 20px; } }
+  @media screen and (max-width: 500px) {
+    .subscription__form input {
+      width: 100%; } }
 
 .blog {
   padding-top: 100px;

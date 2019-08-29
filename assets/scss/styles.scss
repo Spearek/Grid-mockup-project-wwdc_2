@@ -444,6 +444,18 @@ justify-content: space-between;
 			width: 70%;
 		}
 	}
+	@include mediaQ(768px){
+		margin-bottom: 50px;
+		&__form  input{
+			width: 70%;
+			margin-bottom: 20px;
+		}
+	}
+	@include mediaQ(500px){
+		&__form  input{
+			width: 100%;
+		}
+	}
 	
 }
 
