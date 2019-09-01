@@ -476,6 +476,11 @@ justify-content: space-between;
 		&__form  input{
 			width: 100%;
 		}
+		&__description{
+			width:100%;
+			text-align: justify;
+		}
+
 	}
 	
 }
