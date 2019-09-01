@@ -396,6 +396,9 @@ justify-content: space-between;
 		"peach peach peach peach blueberries blueberries"
 		"milk milk milk khakki khakki khakki";
 	}
+	.img-container img{
+		width: 100%;
+	}
 	.image-1{
 		grid-area: peach; 
 	}
@@ -434,6 +437,12 @@ justify-content: space-between;
 			"blackberries blackberries"
 			"milk milk "
 			"khakki khakki";
+		}
+	}
+	@include mediaQ(400px){
+		&__decription{
+			width:100%;
+			text-align: justify;
 		}
 	}
 }
@@ -608,8 +617,6 @@ justify-content: space-between;
 	.flex-container{
 		display:flex;
 	}
-
-
 	&__heading{
 		text-align: center;
 	}

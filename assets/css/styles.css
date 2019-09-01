@@ -315,6 +315,8 @@ header {
         -ms-flex-align: stretch;
             align-items: stretch;
     grid-template-areas: "peach peach peach peach blackberries blackberries" "peach peach peach peach blueberries blueberries" "milk milk milk khakki khakki khakki"; }
+  .gallery .img-container img {
+    width: 100%; }
   .gallery .image-1 {
     grid-area: peach; }
   .gallery .image-2 {
@@ -336,6 +338,10 @@ header {
       width: 80%;
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "peach peach" "blueberries blueberries" "blackberries blackberries" "milk milk " "khakki khakki"; } }
+  @media screen and (max-width: 400px) {
+    .gallery__decription {
+      width: 100%;
+      text-align: justify; } }
 
 .subscription {
   min-height: 500px;
