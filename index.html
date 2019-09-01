@@ -8,12 +8,21 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
+    
     <title>Initial HTML file</title>
 </head>
 <body>
     <header>
         <span class="logo logo--big">Cahee</span>
-        <nav class="navigation">
+        <div class="burger-container">
+            <button class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+        <nav class="navigation">                                        
             <ul class="navigation__items">
                 <li class="navigation__item">Home</li>
                 <li class="navigation__item">About</li>
@@ -32,8 +41,6 @@
             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             <button class="button button--hero">Get free now</button>
         </div>
-        
-
     </section>
     <section class="section section--about">
         <div class="about section__content">
@@ -151,6 +158,6 @@
             <p>Made with <span class="love">love</span> by Auskteez</p>
         </div>
     </footer>
-    
+    <script src="./assets/scripts/menu.js"></script>
 </body>
 </html>

@@ -101,6 +101,12 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.burger-container {
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .burger-container {
+      display: block; } }
+
 .navigation__items {
   vertical-align: middle;
   display: -webkit-box;
@@ -117,6 +123,10 @@ header {
 
 .navigation__item:last-child {
   padding-right: 0; }
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none; } }
 
 .hero {
   height: 100vh;
