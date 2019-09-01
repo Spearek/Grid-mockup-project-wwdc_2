@@ -699,4 +699,12 @@ justify-content: space-between;
 		color: red;
 		font-weight: $boldFont;
 	}	
+	@include mediaQ(900px){
+		flex-direction: column;
+		line-height: 1.7;
+		align-items: center;
+	}
+	@include mediaQ(400px){
+		font-size:14px;
+	}
 }
