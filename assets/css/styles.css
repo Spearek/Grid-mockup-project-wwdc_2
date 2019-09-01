@@ -151,6 +151,19 @@ header {
   @media screen and (max-width: 1000px) {
     .hero__content {
       padding-top: 40%; } }
+  @media screen and (max-width: 768px) {
+    .hero__content {
+      padding-top: 60%; }
+      .hero__content h1 {
+        font-size: 9rem; }
+      .hero__content p {
+        width: 70%;
+        font-weight: 400; } }
+  @media screen and (max-width: 415px) {
+    .hero__content {
+      text-align: center; }
+    .hero p {
+      width: 100%; } }
 
 .about {
   display: -webkit-box;

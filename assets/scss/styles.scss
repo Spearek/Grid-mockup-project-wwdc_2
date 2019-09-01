@@ -206,6 +206,27 @@ justify-content: space-between;
 				padding-top:40%;
 			}
 		}
+		@include mediaQ(768px){
+			&__content{
+				padding-top:60%;
+				h1{
+					font-size: $titleBig;
+				}
+				p{
+					width:70%;
+					font-weight: 400;
+				}
+				
+			}
+		}
+		@include mediaQ(415px){
+			&__content{
+				text-align: center;
+			}
+			p{
+				width:100%;
+			}
+		}
 }
 
 .about{
