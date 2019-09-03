@@ -100,9 +100,26 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  @media screen and (max-width: 768px) {
+    header {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
 
 .burger-container {
-  display: none; }
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  -o-transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0; }
   @media screen and (max-width: 768px) {
     .burger-container {
       display: block; } }
@@ -126,7 +143,30 @@ header {
 
 @media screen and (max-width: 768px) {
   .navigation {
-    display: none; } }
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition: -webkit-transform 1s ease-in-out;
+    -o-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+    position: absolute;
+    right: -14%;
+    -webkit-transform: translateX(200px);
+        -ms-transform: translateX(200px);
+            transform: translateX(200px); }
+    .navigation__items {
+      border-radius: 3%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background: rgba(111, 116, 221, 0.8);
+      color: white;
+      width: 200px; } }
 
 .hero {
   height: 100vh;
@@ -599,5 +639,15 @@ header {
   @media screen and (max-width: 400px) {
     .footer {
       font-size: 14px; } }
+
+.js-visible {
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px); }
+
+.button-moved {
+  -webkit-transform: translateX(-150px);
+      -ms-transform: translateX(-150px);
+          transform: translateX(-150px); }
 
 /*# sourceMappingURL=styles.css.map */
