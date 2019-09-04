@@ -150,6 +150,8 @@ position:fixed;
 display:flex;
 margin: 40px 10%;
 justify-content: space-between;
+z-index:2;
+
 @include mediaQ(768px){
 	flex-direction: column;
 	align-items: left;
