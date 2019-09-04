@@ -49,6 +49,7 @@ $btnFont: 20px;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 h1{
 	margin:0;
@@ -169,18 +170,30 @@ z-index:2;
 }
 .navigation{
 
-&__items{
+	&__items{
 		vertical-align: middle;
 		display:flex;
 		font-weight: $boldFont;
 	}
-&__item{
+	&__item{
 		vertical-align: middle;
 		list-style: none;
 		text-transform: uppercase;
 		padding: 20px;
 		font-size: 1.6rem;
 	}
+	&__item a{
+		text-decoration: none;
+		color: black;
+		cursor:pointer;
+		padding-top:3px;
+		border-top:0px solid rgb(255, 96, 51);
+		transition: border 0.2s ease-in;
+	}
+	&__item a:hover{
+		border-top:3px solid rgb(255, 96, 51);
+	}
+	
 	&__item:last-child{
 		padding-right: 0;
 	}

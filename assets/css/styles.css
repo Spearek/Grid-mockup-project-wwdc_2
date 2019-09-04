@@ -14,7 +14,8 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 h1 {
   margin: 0; }
@@ -142,6 +143,19 @@ header {
   text-transform: uppercase;
   padding: 20px;
   font-size: 1.6rem; }
+
+.navigation__item a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding-top: 3px;
+  border-top: 0px solid #ff6033;
+  -webkit-transition: border 0.2s ease-in;
+  -o-transition: border 0.2s ease-in;
+  transition: border 0.2s ease-in; }
+
+.navigation__item a:hover {
+  border-top: 3px solid #ff6033; }
 
 .navigation__item:last-child {
   padding-right: 0; }
