@@ -4,19 +4,19 @@
             "date":"20 NOV",
             "title":"Green Smoothies: Too Much of a Good Thing?",
             "author": "By Auskteez - 2 hours ago",
-            "BackgroundImage":"./assets/img/blog_smoothie.jpg"
+            "BackgroundImage":"/assets/img/blog_smoothie.jpg"
         },
         {
             "date":"14 NOV",
             "title":"Growing Food and a 'Thirst' for Innovation",
             "author": "By Auskteez - 3 hours ago",
-            "BackgroundImage":"./assets/img/blog_peas.jpg"
+            "BackgroundImage":"/assets/img/blog_peas.jpg"
         },
         {
             "date":"10 NOV",
             "title":"Pesticides & Food: What You Need to Know",
             "author": "By Auskteez - 6 hours ago",
-            "BackgroundImage":"./assets/img/blog_raspberries.jpg"
+            "BackgroundImage":"/assets/img/blog_raspberries.jpg"
         }
     ]
 }
