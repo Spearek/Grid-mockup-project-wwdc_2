@@ -17,6 +17,24 @@
             "title":"Pesticides & Food: What You Need to Know",
             "author": "By Auskteez - 6 hours ago",
             "BackgroundImage":"./assets/img/blog_raspberries.jpg"
+        },
+        {
+            "date":"22 OCT",
+            "title":"Oatmeal - The perfect breakfast for everyone.",
+            "author": "By Auskteez - a month ago",
+            "BackgroundImage":"./assets/img/blog_oatmeal.jpg"
+        },
+        {
+            "date":"14 OCT",
+            "title":"Pancakes could be also Healthy.",
+            "author": "By Auskteez - a month ago",
+            "BackgroundImage":"./assets/img/blog_pancakes.jpg"
+        },
+        {
+            "date":"24 SEP",
+            "title":"How many vegetables should you eat every day?",
+            "author": "By Auskteez - two months ago",
+            "BackgroundImage":"./assets/img/blog_salad.jpg"
         }
     ]
 }
