@@ -150,9 +150,9 @@ header {
   cursor: pointer;
   padding-top: 3px;
   border-top: 0px solid #ff6033;
-  -webkit-transition: border 0.2s ease-in;
-  -o-transition: border 0.2s ease-in;
-  transition: border 0.2s ease-in; }
+  -webkit-transition: border 0.15s ease-in;
+  -o-transition: border 0.15s ease-in;
+  transition: border 0.15s ease-in; }
 
 .navigation__item a:hover {
   border-top: 3px solid #ff6033; }
@@ -183,9 +183,12 @@ header {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      background: rgba(111, 116, 221, 0.8);
+      background: #6f74dd;
+      width: 160px; }
+    .navigation__item a {
       color: white;
-      width: 160px; } }
+      text-shadow: black 2px 2px 2px;
+      font-size: 2rem; } }
 
 .hero {
   height: 100vh;
