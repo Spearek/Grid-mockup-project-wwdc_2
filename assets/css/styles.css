@@ -1,3 +1,43 @@
+@-webkit-keyframes mouseAnimation {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  30% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px); }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px); }
+  70% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px); }
+  90% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px); }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
+
+@keyframes mouseAnimation {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  30% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px); }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px); }
+  70% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px); }
+  90% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px); }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
+
 :root {
   font-size: 10px; }
   @media screen and (max-width: 1200px) {
@@ -240,7 +280,9 @@ header {
 .mouseContainer {
   position: absolute;
   bottom: 5%;
-  left: 48%; }
+  left: 48%;
+  -webkit-animation: mouseAnimation 2s linear infinite;
+          animation: mouseAnimation 2s linear infinite; }
 
 .about {
   display: -webkit-box;
