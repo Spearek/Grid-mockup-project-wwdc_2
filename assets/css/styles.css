@@ -237,6 +237,11 @@ header {
     .hero p {
       width: 100%; } }
 
+.mouseContainer {
+  position: absolute;
+  bottom: 5%;
+  left: 48%; }
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
